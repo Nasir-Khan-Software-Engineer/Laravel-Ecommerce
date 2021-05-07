@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------
+  Template Name: Uniqlo-Minimalist eCommerce HTML5 Template.
+  Template URI: #
+  Description: Uniqlo is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.1
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+.slider__activation__02 .owl-dots{
+	/*margin-top: -20px !important;*/
+	/*background:red;*/
+	position: absolute;
+	top: 94%;
+	left: 50%;
+	transform: translate(-50%, 0px);
+}
+.slider__activation__02 .owl-dots .owl-dot span{
+	width: 10px;
+	height: 10px;
+	background:#000 !important;
+}
+.slider__activation__02 .owl-dots .active span{
+	background:red !important;
+	width: 30px;
+	height: 10px;
+}
+
+.single__pro{
+	overflow: hidden;
+	position: relative;
+}
+.single__pro .product__details{
+	position: static;
+}
+
+.single__pro .product__details h2{
+
+	color: #000 !important;
+	font-weight: bold !important;
+	font-size: 16px !important;
+	text-transform: capitalize;
+}
+.single__pro .product__details span{
+	color: #000 !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+
+.single__pro .product__details .old__prize{
+	color: #6c757d!important;
+}
+
+
+.single__pro .offer{
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	/*background:red;*/
+	padding: 1px 5px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.find-more-btn{
+	padding: 7px 25px;
+	background: #dc3545;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.find-more-btn:hover{
+	color: #333;
+}
+
+.requerd-input{
+	border: 1px solid red !important;
+}
+
+#pagination{
+	margin-top: 20px;
+	background: red;
+	position: relative;
+}
+#pagination ul{
+	
+}
+#pagination ul li:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+#pagination ul li:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#pagination ul li .page-link{
+	background: #dc3545;
+	color: #fff;
+	border-radius: 0px;
+	border: 0px;
+}
+#pagination ul li .page-link:hover{
+	background:#000;
+}
+

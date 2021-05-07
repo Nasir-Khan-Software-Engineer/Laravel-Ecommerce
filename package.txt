@@ -1,0 +1,56 @@
+1. Product
+2. Category
+3. Order
+4. Coupon
+5. Customer
+6. Review
+7. Report (Customer, Product)
+8. Offer
+
+------------- SP-1 (7days)--------
+1. Product(Limit)
+2. Category(Limit)
+3. Order 
+4. Coupon
+5. Customer
+6. Review
+7. Report (Product)
+
+------------- MP-2 (12days)--------
+1. Product(Limit) 
+2. Category(Limit)
+3. Order 
+4. Coupon
+5. Customer
+6. Review
+7. Report (Product, Customer)
+8. Offer
+9. Email Dashboard
+10. Data Download (Products, Customer)
+11. User Create (Admin, Staff, etc)
+12. Filter by Price (ForntEnd)
+
+------------- LP-3 (15 Days)--------
+1. Product
+2. Category
+3. Order 
+4. Coupon
+5. Customer
+6. Review
+7. Report (Product, Customer, Category)
+8. Offer
+9. Email Dashboard
+10. Data Download (All)
+11. User Create
+12. Multi Vendor(Vandor Dashboard)
+13. Filter by Price (ForntEnd)
+
+
+-------- For All ------
+1. Customer Dashboard
+2. Order Track / Order Status Check
+3. About, Contact, Privacy Polic, TC pace
+4. Slider
+
+
+
