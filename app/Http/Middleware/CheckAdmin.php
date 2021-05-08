@@ -19,7 +19,7 @@ class CheckAdmin
 
         $user_type = Session::get('type');
         
-        // dd($user_type);
+        
 
         if($user_type == 'admin'){
              return $next($request);

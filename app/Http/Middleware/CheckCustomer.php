@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Session;
+use Auth;
 class CheckCustomer
 {
     /**
@@ -16,7 +17,8 @@ class CheckCustomer
     public function handle($request, Closure $next)
     {
 
-        $user_type = Session::get('type');
+        $user_type = Auth::user()->type;
+       
 
         if($user_type == 'customer'){
             return $next($request);

@@ -70,7 +70,8 @@ class RegisterController extends Controller
             'un_hash_password' => $data['password'],
             'password' => Hash::make($data['password']),
             'permissions' => 'customer',
-            'permission_description' => 'customer'
+            'permission_description' => 'customer',
+            'type' => 'customer'
         ]);
     }
 }
